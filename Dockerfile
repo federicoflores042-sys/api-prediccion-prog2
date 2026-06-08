@@ -7,7 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Entrenar modelos al construir la imagen
 RUN python entrenar_iris.py && python entrenar_mpg.py
 
 EXPOSE 8080

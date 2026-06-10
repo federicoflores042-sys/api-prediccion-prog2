@@ -90,10 +90,11 @@ def info():
             "de clasificación y regresión utilizando modelos entrenados con Scikit-Learn."
         ),
         "integrantes": [
-            {"nombre": "Federico Flores",     "rol": "Desarrollador"},
-            {"nombre": "Elias Salgueiro",     "rol": "Desarrollador"},
-            {"nombre": "Valentina Gloriani",  "rol": "Desarrolladora"},
+    {"nombre": "Federico Flores",    "dni": "39.249.475", "email": "federicoflores042@gmail.com", "rol": "Desarrollador"},
+    {"nombre": "Elias Salgueiro",    "dni": "37.034.994", "email": "salgueiroelias@gmail.com",   "rol": "Desarrollador"},
+    {"nombre": "Valentina Gloriani", "dni": "42.053.998", "email": "valeegloriani@gmail.com",    "rol": "Desarrolladora"},
         ],
+        
         "modelo_clasificacion": {
             "nombre": "Iris Species Classifier",
             "tipo": "Clasificación",
